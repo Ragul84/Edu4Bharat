@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the synonym of 'Diligent'?\",\"options\":[\"Lazy\",\"Hardworking\",\"Careless\",\"Indifferent\"],\"correct_answer\":1,\"explanation\":\"Diligent means showing care and effort in one's work or duties; its synonym is hardworking.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"3ac3fc3d5a89fa0319b312ac084a0455\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "3ac3fc3d5a89fa0319b312ac084a0455"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the antonym of 'Optimistic'?\",\"options\":[\"Hopeful\",\"Pessimistic\",\"Cheerful\",\"Confident\"],\"correct_answer\":1,\"explanation\":\"Optimistic means hopeful and confident about the future; its antonym is pessimistic.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"42bbd9e2495841c7e2a9ca3d84ba6b9b\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "42bbd9e2495841c7e2a9ca3d84ba6b9b"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"Choose the correct spelling:\",\"options\":[\"Maintenance\",\"Maintainance\",\"Maintenence\",\"Maintenanse\"],\"correct_answer\":0,\"explanation\":\"The correct spelling is 'Maintenance'.\",\"difficulty\":\"medium\",\"exam_types\":[\"SSC\",\"RRB\"],\"id\":\"74dca9e37d30142642f84ed709515d52\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "74dca9e37d30142642f84ed709515d52"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the meaning of the idiom 'To burn the midnight oil'?\",\"options\":[\"To waste time\",\"To work late into the night\",\"To cook a meal\",\"To light a lamp\"],\"correct_answer\":1,\"explanation\":\"The idiom 'To burn the midnight oil' means to work or study late into the night.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"1ce33d3cb40ad43091fe96d316b72269\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "1ce33d3cb40ad43091fe96d316b72269"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"Identify the part of speech for the word 'Beautiful' in the sentence: 'She is a beautiful girl.'\",\"options\":[\"Noun\",\"Verb\",\"Adjective\",\"Adverb\"],\"correct_answer\":2,\"explanation\":\"Beautiful is an adjective because it modifies the noun 'girl'.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"c574fdb0d819ea38f0d885d862589fe6\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "c574fdb0d819ea38f0d885d862589fe6"
+  ]
+]

@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:geography",
+    "{\"question_text\":\"Which planet is known as the 'Red Planet'?\",\"options\":[\"Venus\",\"Mars\",\"Jupiter\",\"Saturn\"],\"correct_answer\":1,\"explanation\":\"Mars is known as the Red Planet due to the presence of iron oxide (rust) on its surface.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"45234d907c13ed49072d7ad3ad6e967e\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:geography",
+    "45234d907c13ed49072d7ad3ad6e967e"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:geography",
+    "{\"question_text\":\"Which is the 'Largest Planet' in our solar system?\",\"options\":[\"Earth\",\"Saturn\",\"Jupiter\",\"Neptune\"],\"correct_answer\":2,\"explanation\":\"Jupiter is the largest planet in our solar system, with a mass more than twice that of all other planets combined.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"26d0c855bb620e77e4ad4a7791b1bb06\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:geography",
+    "26d0c855bb620e77e4ad4a7791b1bb06"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:geography",
+    "{\"question_text\":\"The 'Ozone Layer' is found in which layer of the atmosphere?\",\"options\":[\"Troposphere\",\"Stratosphere\",\"Mesosphere\",\"Thermosphere\"],\"correct_answer\":1,\"explanation\":\"The ozone layer is located in the stratosphere, where it absorbs most of the sun's ultraviolet (UV) radiation.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"f669015f878afcccad8e9c429c106248\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:geography",
+    "f669015f878afcccad8e9c429c106248"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:geography",
+    "{\"question_text\":\"What is the 'Innermost Layer' of the Earth called?\",\"options\":[\"Crust\",\"Mantle\",\"Core\",\"Lithosphere\"],\"correct_answer\":2,\"explanation\":\"The core is the innermost layer of the Earth, composed mainly of iron and nickel.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"5474805a300f8c9bed25ac76a819b3dc\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:geography",
+    "5474805a300f8c9bed25ac76a819b3dc"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:geography",
+    "{\"question_text\":\"Which planet is known as 'Earth's Twin'?\",\"options\":[\"Mars\",\"Venus\",\"Mercury\",\"Neptune\"],\"correct_answer\":1,\"explanation\":\"Venus is called Earth's twin because of its similar size, mass, and proximity to the Sun.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"f8ef68ba99050a593c1eaf683c91f663\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:geography",
+    "f8ef68ba99050a593c1eaf683c91f663"
+  ]
+]

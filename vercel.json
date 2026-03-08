@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/telegram",
+      "dest": "/api/telegram.js"
+    },
+    {
+      "src": "/api/whatsapp",
+      "dest": "/api/whatsapp.js"
+    },
+    {
+      "src": "/api/health",
+      "dest": "/api/health.js"
+    },
+    {
+      "src": "/api/admin",
+      "dest": "/api/admin.js"
+    },
+    {
+      "src": "/api/broadcast",
+      "dest": "/api/broadcast.js"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/broadcast?action=daily_challenge",
+      "schedule": "30 2 * * *"
+    },
+    {
+      "path": "/api/broadcast?action=leaderboard",
+      "schedule": "30 14 * * *"
+    },
+    {
+      "path": "/api/broadcast?action=reminder",
+      "schedule": "0 11 * * *"
+    },
+    {
+      "path": "/api/broadcast?action=group_league_top3",
+      "schedule": "30 13 * * *"
+    },
+    {
+      "path": "/api/broadcast?action=mega_quiz_9pm",
+      "schedule": "30 15 * * *"
+    },
+    {
+      "path": "/api/broadcast?action=sunday_battle_cup",
+      "schedule": "30 13 * * 0"
+    }
+  ]
+}

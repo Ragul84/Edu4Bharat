@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who is known as the 'Father of Modern India'?\",\"options\":[\"Mahatma Gandhi\",\"Raja Ram Mohan Roy\",\"Swami Vivekananda\",\"Ishwar Chandra Vidyasagar\"],\"correct_answer\":1,\"explanation\":\"Raja Ram Mohan Roy is called the Father of Modern India for his efforts to reform Indian society.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"08a1ff8ff49590b1a0fdd2e0c7017d79\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "08a1ff8ff49590b1a0fdd2e0c7017d79"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"The 'Brahmo Samaj' was founded in which year?\",\"options\":[\"1828\",\"1830\",\"1875\",\"1897\"],\"correct_answer\":0,\"explanation\":\"Raja Ram Mohan Roy founded the Brahmo Samaj in 1828 in Calcutta.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"4eacdc85253b7b8c64849cfef75786be\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "4eacdc85253b7b8c64849cfef75786be"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who founded the 'Arya Samaj'?\",\"options\":[\"Swami Vivekananda\",\"Swami Dayananda Saraswati\",\"Raja Ram Mohan Roy\",\"Jyotiba Phule\"],\"correct_answer\":1,\"explanation\":\"Swami Dayananda Saraswati founded the Arya Samaj in 1875 in Bombay.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"6e418406588b5414a922a7137f9a5284\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "6e418406588b5414a922a7137f9a5284"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"The slogan 'Go back to the Vedas' was given by?\",\"options\":[\"Swami Vivekananda\",\"Swami Dayananda Saraswati\",\"Ramakrishna Paramahansa\",\"Annie Besant\"],\"correct_answer\":1,\"explanation\":\"Swami Dayananda Saraswati gave the call 'Go back to the Vedas'.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"9ad4701be377ed1265e8556092e39dc8\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "9ad4701be377ed1265e8556092e39dc8"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who founded the 'Ramakrishna Mission'?\",\"options\":[\"Ramakrishna Paramahansa\",\"Swami Vivekananda\",\"Sarada Devi\",\"Sister Nivedita\"],\"correct_answer\":1,\"explanation\":\"Swami Vivekananda founded the Ramakrishna Mission in 1897 in memory of his guru.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"53c9ec4aa4fcc0e242e2a4169e552b45\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "53c9ec4aa4fcc0e242e2a4169e552b45"
+  ]
+]

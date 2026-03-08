@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"What is the maximum strength of the 'Lok Sabha' as per the Constitution?\",\"options\":[\"545\",\"550\",\"552\",\"560\"],\"correct_answer\":2,\"explanation\":\"The maximum strength of the Lok Sabha is 552 (530 from states, 20 from UTs, and 2 nominated from the Anglo-Indian community, though the nomination was abolished in 2020).\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"3841a15e823a00ee90788ab53f1f7c18\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "3841a15e823a00ee90788ab53f1f7c18"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"Who is the 'Constitutional Head' of a State in India?\",\"options\":[\"Chief Minister\",\"Governor\",\"Speaker of Legislative Assembly\",\"High Court Judge\"],\"correct_answer\":1,\"explanation\":\"The Governor is the constitutional head of a state, while the Chief Minister is the real executive head.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"TNPSC\"],\"id\":\"8521dd9b3337c31df2c7af94414af6d1\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "8521dd9b3337c31df2c7af94414af6d1"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"The '73rd Constitutional Amendment Act' (1992) is related to?\",\"options\":[\"Municipalities\",\"Panchayati Raj\",\"Fundamental Duties\",\"Anti-Defection Law\"],\"correct_answer\":1,\"explanation\":\"The 73rd Amendment Act gave constitutional status to the Panchayati Raj institutions.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"489b2c4be357b91db687f2f683ee36e6\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "489b2c4be357b91db687f2f683ee36e6"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"What is the minimum age required to become a 'Member of the Rajya Sabha'?\",\"options\":[\"25 years\",\"30 years\",\"35 years\",\"40 years\"],\"correct_answer\":1,\"explanation\":\"Article 84 of the Constitution states that a person must be at least 30 years old to be a member of the Rajya Sabha.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"TNPSC\"],\"id\":\"0fb54886065f26da25de681d120e0896\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "0fb54886065f26da25de681d120e0896"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"The 'Anti-Defection Law' is contained in which Schedule of the Constitution?\",\"options\":[\"8th Schedule\",\"9th Schedule\",\"10th Schedule\",\"11th Schedule\"],\"correct_answer\":2,\"explanation\":\"The 10th Schedule, added by the 52nd Amendment Act (1985), contains the Anti-Defection Law.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"16a9fe45f9aa7f8ea8ecbc4f503b554b\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "16a9fe45f9aa7f8ea8ecbc4f503b554b"
+  ]
+]

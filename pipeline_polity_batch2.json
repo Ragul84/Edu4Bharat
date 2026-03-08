@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"Which Constitutional Amendment Act added the 'Fundamental Duties' to the Indian Constitution?\",\"options\":[\"42nd Amendment\",\"44th Amendment\",\"73rd Amendment\",\"86th Amendment\"],\"correct_answer\":0,\"explanation\":\"The 42nd Amendment Act (1976) added Part IV-A and Article 51A (Fundamental Duties) to the Constitution.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"5a876971622f059bbab76cfa3db8c5fd\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "5a876971622f059bbab76cfa3db8c5fd"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"Who is the 'Supreme Commander' of the Indian Armed Forces?\",\"options\":[\"Prime Minister\",\"President\",\"Chief of Defence Staff\",\"Defence Minister\"],\"correct_answer\":1,\"explanation\":\"The President of India is the Supreme Commander of the Indian Armed Forces.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"0fde60d8a63db892b14446bc85043a35\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "0fde60d8a63db892b14446bc85043a35"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"The 'Writ of Habeas Corpus' is issued by the court to?\",\"options\":[\"Command a public official to perform a duty\",\"Produce a person who is illegally detained\",\"Quash an order of a lower court\",\"Prohibit a lower court from exceeding its jurisdiction\"],\"correct_answer\":1,\"explanation\":\"Habeas Corpus (meaning 'to have the body') is issued to protect the personal liberty of an individual against illegal detention.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"a8d3c952410fcb67cb134290854e4a3a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "a8d3c952410fcb67cb134290854e4a3a"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"What is the minimum age required to become the 'President of India'?\",\"options\":[\"25 years\",\"30 years\",\"35 years\",\"40 years\"],\"correct_answer\":2,\"explanation\":\"Article 58 of the Constitution states that a person must be at least 35 years old to be eligible for the office of President.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"TNPSC\"],\"id\":\"51499f61c3a717d2f0ac2b2f60973106\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "51499f61c3a717d2f0ac2b2f60973106"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"The 'Joint Sitting' of both Houses of Parliament is presided over by whom?\",\"options\":[\"President\",\"Vice-President\",\"Speaker of Lok Sabha\",\"Prime Minister\"],\"correct_answer\":2,\"explanation\":\"The Joint Sitting (Article 108) is presided over by the Speaker of the Lok Sabha.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"e8cc7cdfa4fa26294b7893a8d3d81306\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "e8cc7cdfa4fa26294b7893a8d3d81306"
+  ]
+]

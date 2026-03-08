@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who was the founder of the 'Slave Dynasty' (Mamluk Dynasty)?\",\"options\":[\"Iltutmish\",\"Qutb-ud-din Aibak\",\"Balban\",\"Razia Sultan\"],\"correct_answer\":1,\"explanation\":\"Qutb-ud-din Aibak founded the Slave Dynasty in 1206 AD.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"ffb0c2f16541718ded4f207ac47d321e\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "ffb0c2f16541718ded4f207ac47d321e"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"The 'First Battle of Panipat' (1526) was fought between?\",\"options\":[\"Babur and Ibrahim Lodi\",\"Akbar and Hemu\",\"Babur and Rana Sanga\",\"Humayun and Sher Shah Suri\"],\"correct_answer\":0,\"explanation\":\"The First Battle of Panipat was fought between Babur and Ibrahim Lodi, marking the beginning of the Mughal Empire.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"c679d19408eb5692e452387fc64a1320\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "c679d19408eb5692e452387fc64a1320"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who was the author of the book 'Ain-i-Akbari'?\",\"options\":[\"Akbar\",\"Abul Fazl\",\"Birbal\",\"Faizi\"],\"correct_answer\":1,\"explanation\":\"Abul Fazl, one of the nine jewels of Akbar's court, wrote the Ain-i-Akbari.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"49b57f07e05e06ca42c2fa8614b03b42\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "49b57f07e05e06ca42c2fa8614b03b42"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"The 'Buland Darwaza' at Fatehpur Sikri was built by which Mughal emperor?\",\"options\":[\"Babur\",\"Humayun\",\"Akbar\",\"Shah Jahan\"],\"correct_answer\":2,\"explanation\":\"Akbar built the Buland Darwaza to commemorate his victory over Gujarat.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"97ca1f7612276a6631a23c60bbd96152\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "97ca1f7612276a6631a23c60bbd96152"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who was the last powerful 'Mughal Emperor'?\",\"options\":[\"Aurangzeb\",\"Bahadur Shah Zafar\",\"Shah Alam II\",\"Farrukhsiyar\"],\"correct_answer\":0,\"explanation\":\"Aurangzeb is considered the last powerful Mughal emperor, after whom the empire began to decline.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"854013d238905b374268c3487ebb3f6a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "854013d238905b374268c3487ebb3f6a"
+  ]
+]

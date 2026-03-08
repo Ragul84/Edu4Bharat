@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the synonym of 'Genuine'?\",\"options\":[\"Fake\",\"Authentic\",\"False\",\"Artificial\"],\"correct_answer\":1,\"explanation\":\"Genuine means truly what something is said to be; its synonym is authentic.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"608acbbacaf11e6003e187de6f93179d\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "608acbbacaf11e6003e187de6f93179d"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the antonym of 'Humble'?\",\"options\":[\"Modest\",\"Proud\",\"Kind\",\"Simple\"],\"correct_answer\":1,\"explanation\":\"Humble means having or showing a modest or low estimate of one's importance; its antonym is proud or arrogant.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"77a6aaf536fc60ff6ee0826af6e5985a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "77a6aaf536fc60ff6ee0826af6e5985a"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"Choose the correct spelling:\",\"options\":[\"Millennium\",\"Millenium\",\"Millenniam\",\"Millenniam\"],\"correct_answer\":0,\"explanation\":\"The correct spelling is 'Millennium' (double 'l' and double 'n').\",\"difficulty\":\"medium\",\"exam_types\":[\"SSC\",\"RRB\"],\"id\":\"74dca9e37d30142642f84ed709515d52\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "74dca9e37d30142642f84ed709515d52"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the meaning of the idiom 'To piece of cake'?\",\"options\":[\"To eat a dessert\",\"To be very easy\",\"To be very hard\",\"To be hungry\"],\"correct_answer\":1,\"explanation\":\"The idiom 'A piece of cake' means something that is very easy to do.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"3880bd08ded0437141ffb54d217827b2\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "3880bd08ded0437141ffb54d217827b2"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"Identify the part of speech for the word 'Slowly' in the sentence: 'He walked slowly to the park.'\",\"options\":[\"Noun\",\"Verb\",\"Adjective\",\"Adverb\"],\"correct_answer\":3,\"explanation\":\"Slowly is an adverb because it modifies the verb 'walked'.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"221b435b8747f91618de967f104398a1\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "221b435b8747f91618de967f104398a1"
+  ]
+]

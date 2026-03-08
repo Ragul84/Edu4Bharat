@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the synonym of 'Abundant'?\",\"options\":[\"Scarce\",\"Plentiful\",\"Rare\",\"Limited\"],\"correct_answer\":1,\"explanation\":\"Abundant means existing or available in large quantities; its synonym is plentiful.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"f8f4d9db158e5d0e5463d5d6b8c03fa4\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "f8f4d9db158e5d0e5463d5d6b8c03fa4"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the antonym of 'Ancient'?\",\"options\":[\"Old\",\"Modern\",\"Antique\",\"Historic\"],\"correct_answer\":1,\"explanation\":\"Ancient means belonging to the very distant past; its antonym is modern.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"3bc67dce33ed5a26b0693064d246e8ff\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "3bc67dce33ed5a26b0693064d246e8ff"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"Choose the correct spelling:\",\"options\":[\"Occurrence\",\"Occurence\",\"Ocurrence\",\"Occurrance\"],\"correct_answer\":0,\"explanation\":\"The correct spelling is 'Occurrence' (double 'c' and double 'r').\",\"difficulty\":\"medium\",\"exam_types\":[\"SSC\",\"RRB\"],\"id\":\"74dca9e37d30142642f84ed709515d52\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "74dca9e37d30142642f84ed709515d52"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the meaning of the idiom 'To hit the nail on the head'?\",\"options\":[\"To make a mistake\",\"To say something exactly right\",\"To build something\",\"To be angry\"],\"correct_answer\":1,\"explanation\":\"The idiom 'To hit the nail on the head' means to describe exactly what is causing a situation or problem.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"7589de65339b2d8fd27ebbe640d386d1\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "7589de65339b2d8fd27ebbe640d386d1"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"Identify the part of speech for the word 'Always' in the sentence: 'He always speaks the truth.'\",\"options\":[\"Noun\",\"Verb\",\"Adjective\",\"Adverb\"],\"correct_answer\":3,\"explanation\":\"Always is an adverb of frequency because it modifies the verb 'speaks'.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"16439d3b93a93f144c1471093b8667aa\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "16439d3b93a93f144c1471093b8667aa"
+  ]
+]

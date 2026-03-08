@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"What is the 'SI unit' of 'Electric Current'?\",\"options\":[\"Volt\",\"Ampere\",\"Ohm\",\"Watt\"],\"correct_answer\":1,\"explanation\":\"The SI unit of electric current is the Ampere (A).\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"e177a5e48d94ea34b3f5b0b4ad9677c9\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "e177a5e48d94ea34b3f5b0b4ad9677c9"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"Which gas is used in 'Fire Extinguishers'?\",\"options\":[\"Oxygen\",\"Nitrogen\",\"Carbon Dioxide\",\"Hydrogen\"],\"correct_answer\":2,\"explanation\":\"Carbon dioxide (CO2) is used in fire extinguishers because it is non-flammable and heavier than air.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"24a80652a46b992263957f1c2fa46588\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "24a80652a46b992263957f1c2fa46588"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"The 'Hardest Substance' available on Earth is?\",\"options\":[\"Gold\",\"Iron\",\"Diamond\",\"Platinum\"],\"correct_answer\":2,\"explanation\":\"Diamond is the hardest naturally occurring substance on Earth.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"8307a75519f3602215d72351c7d9fdea\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "8307a75519f3602215d72351c7d9fdea"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"Which vitamin is also known as 'Retinol'?\",\"options\":[\"Vitamin A\",\"Vitamin B\",\"Vitamin C\",\"Vitamin D\"],\"correct_answer\":0,\"explanation\":\"Vitamin A is chemically known as Retinol.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"070c34ff2855d503766d80380431652d\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "070c34ff2855d503766d80380431652d"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"What is the 'Chemical Formula' of 'Baking Soda'?\",\"options\":[\"Na2CO3\",\"NaHCO3\",\"NaOH\",\"NaCl\"],\"correct_answer\":1,\"explanation\":\"Baking soda is chemically known as Sodium Bicarbonate (NaHCO3).\",\"difficulty\":\"medium\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"152ebb16a409bfbed442b80e788d8fa4\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "152ebb16a409bfbed442b80e788d8fa4"
+  ]
+]

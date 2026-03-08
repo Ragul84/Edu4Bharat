@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"Which Article of the Constitution deals with the 'Amendment Procedure'?\",\"options\":[\"Article 352\",\"Article 356\",\"Article 360\",\"Article 368\"],\"correct_answer\":3,\"explanation\":\"Article 368 provides the power to Parliament to amend the Constitution and the procedure for it.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"1be9379695d17e6bc0df83e848537a45\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "1be9379695d17e6bc0df83e848537a45"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"The 'National Emergency' is declared under which Article?\",\"options\":[\"Article 352\",\"Article 356\",\"Article 360\",\"Article 365\"],\"correct_answer\":0,\"explanation\":\"Article 352 provides for the declaration of a National Emergency on the grounds of war, external aggression, or armed rebellion.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"9824e7803fcf875ac5094a92f656db24\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "9824e7803fcf875ac5094a92f656db24"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"The 'President's Rule' in a State is imposed under which Article?\",\"options\":[\"Article 352\",\"Article 356\",\"Article 360\",\"Article 368\"],\"correct_answer\":1,\"explanation\":\"Article 356 provides for the imposition of President's Rule in a state in case of failure of constitutional machinery.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"3d1886c1b0d738334525824246ce73b5\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "3d1886c1b0d738334525824246ce73b5"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"The 'Financial Emergency' is declared under which Article?\",\"options\":[\"Article 352\",\"Article 356\",\"Article 360\",\"Article 368\"],\"correct_answer\":2,\"explanation\":\"Article 360 provides for the declaration of a Financial Emergency, which has never been declared in India so far.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"714e433121328f62684d60bec8eef34a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "714e433121328f62684d60bec8eef34a"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:polity",
+    "{\"question_text\":\"Which Constitutional Amendment is known as the 'Mini Constitution'?\",\"options\":[\"42nd Amendment\",\"44th Amendment\",\"73rd Amendment\",\"86th Amendment\"],\"correct_answer\":0,\"explanation\":\"The 42nd Amendment Act (1976) is called the 'Mini Constitution' due to the large number of changes it introduced.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"0a3d3142072a2b97ade871fcf5e986e6\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:polity",
+    "0a3d3142072a2b97ade871fcf5e986e6"
+  ]
+]

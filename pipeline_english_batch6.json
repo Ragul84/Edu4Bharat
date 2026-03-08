@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the synonym of 'Fragile'?\",\"options\":[\"Strong\",\"Delicate\",\"Tough\",\"Hard\"],\"correct_answer\":1,\"explanation\":\"Fragile means easily broken or damaged; its synonym is delicate.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"8f96617d169701d619881d5309150f55\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "8f96617d169701d619881d5309150f55"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the antonym of 'Hostile'?\",\"options\":[\"Friendly\",\"Angry\",\"Unkind\",\"Mean\"],\"correct_answer\":0,\"explanation\":\"Hostile means showing or feeling opposition or dislike; its antonym is friendly.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"b2fdea6179d29c552d47b3aa591b0ea8\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "b2fdea6179d29c552d47b3aa591b0ea8"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"Choose the correct spelling:\",\"options\":[\"Bureaucracy\",\"Burocracy\",\"Bureaucracy\",\"Bureacracy\"],\"correct_answer\":0,\"explanation\":\"The correct spelling is 'Bureaucracy'.\",\"difficulty\":\"medium\",\"exam_types\":[\"SSC\",\"RRB\"],\"id\":\"74dca9e37d30142642f84ed709515d52\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "74dca9e37d30142642f84ed709515d52"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"What is the meaning of the idiom 'To cry over spilt milk'?\",\"options\":[\"To be sad about a mess\",\"To regret something that cannot be undone\",\"To be clumsy\",\"To be angry\"],\"correct_answer\":1,\"explanation\":\"The idiom 'To cry over spilt milk' means to be upset about something that has already happened and cannot be changed.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"205c57074012ffc88f0965e5cfd148e3\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "205c57074012ffc88f0965e5cfd148e3"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:english",
+    "{\"question_text\":\"Identify the part of speech for the word 'Between' in the sentence: 'The ball is between the two boxes.'\",\"options\":[\"Noun\",\"Verb\",\"Adjective\",\"Preposition\"],\"correct_answer\":3,\"explanation\":\"Between is a preposition because it shows the relationship between the ball and the boxes.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"72ab421b99a640661ba9918b437c7049\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:english",
+    "72ab421b99a640661ba9918b437c7049"
+  ]
+]

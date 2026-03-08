@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"Which organization replaced the 'Planning Commission' of India in 2015?\",\"options\":[\"SEBI\",\"RBI\",\"NITI Aayog\",\"Finance Commission\"],\"correct_answer\":2,\"explanation\":\"The NITI Aayog (National Institution for Transforming India) replaced the Planning Commission on January 1, 2015.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"d2c11af12ac57a70a594972c116a273d\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "d2c11af12ac57a70a594972c116a273d"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"Who is the 'Ex-officio Chairman' of NITI Aayog?\",\"options\":[\"President\",\"Prime Minister\",\"Finance Minister\",\"Vice-President\"],\"correct_answer\":1,\"explanation\":\"The Prime Minister of India is the ex-officio chairman of NITI Aayog.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"TNPSC\"],\"id\":\"3581937e658a5af315c5bcc219fa854e\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "3581937e658a5af315c5bcc219fa854e"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"The 'First Five-Year Plan' (1951-56) was based on which model?\",\"options\":[\"Mahalanobis Model\",\"Harrod-Domar Model\",\"Solow Model\",\"Lewis Model\"],\"correct_answer\":1,\"explanation\":\"The First Five-Year Plan was based on the Harrod-Domar model, with a focus on agriculture.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"69240d0e611dde95d40f9d75bf633007\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "69240d0e611dde95d40f9d75bf633007"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"Which committee is related to the 'Estimation of Poverty' in India?\",\"options\":[\"Suresh Tendulkar Committee\",\"Rangarajan Committee\",\"Lakdawala Committee\",\"All of the above\"],\"correct_answer\":3,\"explanation\":\"The Tendulkar, Rangarajan, and Lakdawala committees have all been involved in estimating poverty in India.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"a44f5f5e8572a69c9053d66a7abaee0a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "a44f5f5e8572a69c9053d66a7abaee0a"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"What is the 'Main Objective' of the 12th Five-Year Plan (2012-17)?\",\"options\":[\"Faster and more inclusive growth\",\"Faster, sustainable, and more inclusive growth\",\"Self-reliance\",\"Poverty eradication\"],\"correct_answer\":1,\"explanation\":\"The 12th Five-Year Plan's objective was 'Faster, sustainable, and more inclusive growth'.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"fc05efe091de8ab8bd8b6a881508259a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "fc05efe091de8ab8bd8b6a881508259a"
+  ]
+]

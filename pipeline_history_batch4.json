@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who was the founder of the 'Mauryan Empire'?\",\"options\":[\"Chandragupta Maurya\",\"Bindusara\",\"Ashoka\",\"Brihadratha\"],\"correct_answer\":0,\"explanation\":\"Chandragupta Maurya founded the Mauryan Empire in 322 BC after defeating the Nanda Dynasty.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"faf5b57cf49365cc336a5dd4f5dc4255\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "faf5b57cf49365cc336a5dd4f5dc4255"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"The 'Kalinga War' was fought in which year?\",\"options\":[\"261 BC\",\"273 BC\",\"232 BC\",\"250 BC\"],\"correct_answer\":0,\"explanation\":\"The Kalinga War was fought in 261 BC, which led to Ashoka's conversion to Buddhism.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"c66ed54ff84086e07a116dc6dc841394\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "c66ed54ff84086e07a116dc6dc841394"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who was the author of the book 'Arthashastra'?\",\"options\":[\"Megasthenes\",\"Chanakya (Kautilya)\",\"Vishakhadatta\",\"Kalidasa\"],\"correct_answer\":1,\"explanation\":\"Chanakya, the advisor to Chandragupta Maurya, wrote the Arthashastra, a treatise on statecraft.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"229487cc5672d479f6fda442c52185b1\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "229487cc5672d479f6fda442c52185b1"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"The 'Sanchi Stupa' was built by which Mauryan emperor?\",\"options\":[\"Chandragupta Maurya\",\"Bindusara\",\"Ashoka\",\"Dasharatha\"],\"correct_answer\":2,\"explanation\":\"The Sanchi Stupa in Madhya Pradesh was originally commissioned by Emperor Ashoka in the 3rd century BC.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"7ee7bc86884931bc5c93bdc144b6c62d\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "7ee7bc86884931bc5c93bdc144b6c62d"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who was the last ruler of the 'Mauryan Dynasty'?\",\"options\":[\"Brihadratha\",\"Pushyamitra Shunga\",\"Agnimitra\",\"Devabhuti\"],\"correct_answer\":0,\"explanation\":\"Brihadratha was the last Mauryan ruler, assassinated by his general Pushyamitra Shunga in 185 BC.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"5a39e084b601ef660d7d748f484c8fb0\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "5a39e084b601ef660d7d748f484c8fb0"
+  ]
+]

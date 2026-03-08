@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"Who is known as the 'Father of Economics'?\",\"options\":[\"Adam Smith\",\"Karl Marx\",\"John Maynard Keynes\",\"Amartya Sen\"],\"correct_answer\":0,\"explanation\":\"Adam Smith is widely regarded as the Father of Economics for his work 'The Wealth of Nations'.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"f3ae72968df0bb238b96c58f4a244fb4\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "f3ae72968df0bb238b96c58f4a244fb4"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"Which organization in India is responsible for 'Monetary Policy'?\",\"options\":[\"SEBI\",\"RBI\",\"NITI Aayog\",\"Ministry of Finance\"],\"correct_answer\":1,\"explanation\":\"The Reserve Bank of India (RBI) is responsible for formulating and implementing monetary policy.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"0ebcb9755635b873b9d26286598f57ae\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "0ebcb9755635b873b9d26286598f57ae"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"The 'Five-Year Plans' in India were borrowed from which country?\",\"options\":[\"USA\",\"UK\",\"USSR\",\"Japan\"],\"correct_answer\":2,\"explanation\":\"India's Five-Year Plans were inspired by the Soviet Union's (USSR) planning model.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"f8ef4b24c1897578883f23cd098752ae\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "f8ef4b24c1897578883f23cd098752ae"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"What is the full form of 'GST'?\",\"options\":[\"Goods and Services Tax\",\"General Sales Tax\",\"Government Service Tax\",\"Global Sales Tax\"],\"correct_answer\":0,\"explanation\":\"GST stands for Goods and Services Tax, introduced in India on July 1, 2017.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"7df3bb89c85e5f8bc0e3cbbfc419cf8f\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "7df3bb89c85e5f8bc0e3cbbfc419cf8f"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"Which sector contributes the most to India's GDP?\",\"options\":[\"Agriculture\",\"Industry\",\"Services\",\"Mining\"],\"correct_answer\":2,\"explanation\":\"The Services sector is the largest contributor to India's GDP, accounting for over 50%.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"9053e7d0c93639b1eff6a96ea6378900\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "9053e7d0c93639b1eff6a96ea6378900"
+  ]
+]

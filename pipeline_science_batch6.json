@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"What is the 'SI unit' of 'Power'?\",\"options\":[\"Joule\",\"Newton\",\"Watt\",\"Pascal\"],\"correct_answer\":2,\"explanation\":\"The SI unit of power is the Watt (W).\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"650ad68406c86089d077cd0740ab4886\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "650ad68406c86089d077cd0740ab4886"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"Which gas is used in 'Electric Bulbs'?\",\"options\":[\"Oxygen\",\"Nitrogen\",\"Argon\",\"Hydrogen\"],\"correct_answer\":2,\"explanation\":\"Argon is used in electric bulbs to prevent the filament from oxidizing.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"d810233b0ab682c17794c6e5a97fa1e0\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "d810233b0ab682c17794c6e5a97fa1e0"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"The 'pH value' of 'Human Blood' is?\",\"options\":[\"6.4\",\"7.4\",\"8.4\",\"5.4\"],\"correct_answer\":1,\"explanation\":\"Human blood is slightly basic, with a pH value of approximately 7.4.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"38d19c95d46efc61956022b387401bbe\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "38d19c95d46efc61956022b387401bbe"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"Which vitamin is also known as 'Calciferol'?\",\"options\":[\"Vitamin A\",\"Vitamin B\",\"Vitamin C\",\"Vitamin D\"],\"correct_answer\":3,\"explanation\":\"Vitamin D is chemically known as Calciferol.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"b20964caf4e17d1c0a1ff06ebe5d3bcd\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "b20964caf4e17d1c0a1ff06ebe5d3bcd"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:science",
+    "{\"question_text\":\"What is the 'Chemical Name' of 'Washing Soda'?\",\"options\":[\"Sodium Bicarbonate\",\"Sodium Carbonate\",\"Sodium Hydroxide\",\"Sodium Chloride\"],\"correct_answer\":1,\"explanation\":\"Washing soda is chemically known as Sodium Carbonate (Na2CO3).\",\"difficulty\":\"medium\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"2775942dab31b47f3165cf9656265177\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:science",
+    "2775942dab31b47f3165cf9656265177"
+  ]
+]

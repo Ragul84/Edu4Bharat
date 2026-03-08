@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"Which organization regulates the 'Stock Market' in India?\",\"options\":[\"RBI\",\"SEBI\",\"IRDAI\",\"NITI Aayog\"],\"correct_answer\":1,\"explanation\":\"The Securities and Exchange Board of India (SEBI) is the regulatory body for the securities and commodity market in India.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"34740616de14cd853f16a7cadf12159a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "34740616de14cd853f16a7cadf12159a"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"What is the 'BSE SENSEX'?\",\"options\":[\"Index of 30 largest companies on BSE\",\"Index of 50 largest companies on BSE\",\"Index of all companies on BSE\",\"Index of banking stocks\"],\"correct_answer\":0,\"explanation\":\"The SENSEX is the benchmark index of the Bombay Stock Exchange (BSE), composed of 30 well-established and financially sound companies.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"c238224c9ea94a391eac64d2815e3871\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "c238224c9ea94a391eac64d2815e3871"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"Which organization regulates the 'Insurance Sector' in India?\",\"options\":[\"SEBI\",\"RBI\",\"IRDAI\",\"PFRDA\"],\"correct_answer\":2,\"explanation\":\"The Insurance Regulatory and Development Authority of India (IRDAI) regulates and promotes the insurance and re-insurance industries.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"TNPSC\"],\"id\":\"97d9a67b61f46d813d5e31eb1e4ad9e1\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "97d9a67b61f46d813d5e31eb1e4ad9e1"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"What is 'Bull Market'?\",\"options\":[\"Market where prices are falling\",\"Market where prices are rising\",\"Market with no trading\",\"Market with high volatility\"],\"correct_answer\":1,\"explanation\":\"A bull market is a financial market of a group of securities in which prices are rising or are expected to rise.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"a4b20780da3ac825853877283d25fc8d\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "a4b20780da3ac825853877283d25fc8d"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:economics",
+    "{\"question_text\":\"What is 'Bear Market'?\",\"options\":[\"Market where prices are falling\",\"Market where prices are rising\",\"Market with no trading\",\"Market with high volatility\"],\"correct_answer\":0,\"explanation\":\"A bear market is when a market experiences prolonged price declines, typically falling 20% or more from recent highs.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"b9f7fc666bc6c1b50fc9e193815cc503\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:economics",
+    "b9f7fc666bc6c1b50fc9e193815cc503"
+  ]
+]

@@ -1,0 +1,52 @@
+[
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Which Indus Valley site is known as the 'Mound of the Dead'?\",\"options\":[\"Harappa\",\"Mohenjo-daro\",\"Lothal\",\"Kalibangan\"],\"correct_answer\":1,\"explanation\":\"Mohenjo-daro in Sindhi means 'Mound of the Dead'. It was one of the largest settlements of the ancient Indus Valley Civilization.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"RRB\",\"TNPSC\"],\"id\":\"ce1911ccefed73b9e5d0a1d0dfba618a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "ce1911ccefed73b9e5d0a1d0dfba618a"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"The 'Third Buddhist Council' was held at which place during the reign of Ashoka?\",\"options\":[\"Rajgriha\",\"Vaishali\",\"Pataliputra\",\"Kashmir\"],\"correct_answer\":2,\"explanation\":\"The Third Buddhist Council was held at Pataliputra in 250 BC under the patronage of Emperor Ashoka.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"3a4c70c9baf371d5e7c144c79baa08a5\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "3a4c70c9baf371d5e7c144c79baa08a5"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"Who was the founder of the Slave Dynasty (Mamluk Dynasty) in India?\",\"options\":[\"Iltutmish\",\"Qutb-ud-din Aibak\",\"Balban\",\"Razia Sultana\"],\"correct_answer\":1,\"explanation\":\"Qutb-ud-din Aibak founded the Slave Dynasty in 1206 AD after the death of Muhammad Ghori.\",\"difficulty\":\"easy\",\"exam_types\":[\"SSC\",\"TNPSC\"],\"id\":\"ebbc6bfb002dcb8d78afb85d3b55bc7a\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "ebbc6bfb002dcb8d78afb85d3b55bc7a"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"The 'Permanent Settlement' system was introduced in Bengal by whom in 1793?\",\"options\":[\"Lord Warren Hastings\",\"Lord Cornwallis\",\"Lord Wellesley\",\"Lord William Bentinck\"],\"correct_answer\":1,\"explanation\":\"Lord Cornwallis introduced the Permanent Settlement in Bengal and Bihar to fix the land revenue.\",\"difficulty\":\"medium\",\"exam_types\":[\"UPSC\",\"SSC\"],\"id\":\"5a57d162b5ac9c8223215cfd85034302\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "5a57d162b5ac9c8223215cfd85034302"
+  ],
+  [
+    "RPUSH",
+    "quiz:subject:history",
+    "{\"question_text\":\"In which year did the Dandi March (Salt Satyagraha) begin?\",\"options\":[\"1920\",\"1930\",\"1942\",\"1919\"],\"correct_answer\":1,\"explanation\":\"The Dandi March began on March 12, 1930, from Sabarmati Ashram to Dandi to protest the British salt tax.\",\"difficulty\":\"easy\",\"exam_types\":[\"UPSC\",\"SSC\",\"TNPSC\"],\"id\":\"46bcf73867aa64a02b822e6e2e06e587\"}"
+  ],
+  [
+    "SADD",
+    "quiz:ids:history",
+    "46bcf73867aa64a02b822e6e2e06e587"
+  ]
+]
