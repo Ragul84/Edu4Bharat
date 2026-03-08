@@ -1,0 +1,10 @@
+.env.local
+.vercel/
+node_modules/
+
+# Local-only generated banner previews (not part of repo)
+assets/banners/sample_*.jpg
+
+# External sibling workspaces (not tracked from this repo)
+../migatest/
+../polygod/

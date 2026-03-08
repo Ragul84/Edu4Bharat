@@ -76,6 +76,17 @@ All features are available in both tiers. Pro gives higher daily limits.
 - Heartbeat tasks handle recurring operational checks and resume pings
 - Goal resume pings and scheduled study reminders run without manual intervention
 
+## OpenClaw-Style Workspace Layer
+
+Edu4Bharat is operated with a broader autonomous workspace pattern:
+
+- `HEARTBEAT.md` task loop for periodic maintenance and nudges
+- `cron/jobs.json` for scheduled jobs
+- memory-driven continuity (`memory/MEMORY.md`, `memory/HISTORY.md`)
+- skill-based execution conventions for education workflows
+
+Note: sibling folders like `migatest/` and `polygod/` are intentionally excluded from this repository scope.
+
 ## Stack
 
 - Node.js + Vercel serverless API
