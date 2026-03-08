@@ -12,6 +12,10 @@
   <img src="https://img.shields.io/badge/telegram-bot-blue?style=for-the-badge&logo=telegram" alt="Telegram Bot">
 </p>
 
+<p align="center">
+  <a href="https://t.me/edu4bharatai_bot"><b>Try the bot: https://t.me/edu4bharatai_bot</b></a>
+</p>
+
 ## What Is This?
 
 Edu4Bharat is an autonomous education bot stack for Indian learners:
@@ -85,7 +89,7 @@ Edu4Bharat is operated with a broader autonomous workspace pattern:
 - memory-driven continuity (`memory/MEMORY.md`, `memory/HISTORY.md`)
 - skill-based execution conventions for education workflows
 
-Note: sibling folders like `migatest/` and `polygod/` are intentionally excluded from this repository scope.
+Runtime mirror files are included under `workspace-runtime/`.
 
 ## Stack
 
@@ -98,18 +102,12 @@ Note: sibling folders like `migatest/` and `polygod/` are intentionally excluded
 ## Architecture
 
 ```text
-Telegram Webhook -> api/telegram.js
-                     |- menu + command router
-                     |- quiz/pyq/goal handlers
-                     |- quota checks (Free/Pro)
-                     |- AI calls (lib/openrouter.js)
-                     |- persistence (lib/database.js)
-
-Schedulers -> api/broadcast.js
-             |- daily challenge
-             |- reminders
-             |- leaderboard + group top-3
-             |- event triggers
+Client Channels -> Edu4Bharat Runtime
+                   |- tutoring + quiz orchestration
+                   |- limit/plan governance
+                   |- autonomy loop (cron + heartbeat)
+                   |- memory-backed continuity
+                   |- analytics + growth loops
 ```
 
 ## Setup
