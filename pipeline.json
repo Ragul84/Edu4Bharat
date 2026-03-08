@@ -1,4 +1,0 @@
-[
-  ["RPUSH", "quiz:subject:history", "{\"question_text\": \"Who was the first woman ruler of the Delhi Sultanate?\", \"options\": [\"Razia Sultana\", \"Chand Bibi\", \"Nur Jahan\", \"Mumtaz Mahal\"], \"correct_answer\": 0, \"explanation\": \"Razia Sultana ruled the Delhi Sultanate from 1236 to 1240.\", \"difficulty\": \"easy\", \"exam_types\": [\"UPSC\", \"SSC\", \"TNPSC\"], \"id\": \"de85569f5f57b9e2b2beccf6211a5633\"}"],
-  ["SADD", "quiz:ids:history", "de85569f5f57b9e2b2beccf6211a5633"]
-]
